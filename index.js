@@ -7,11 +7,28 @@ app.get('/', (req, res) => {
 })
 
 app.get('/user', (req, res) => {
-  res.json({
-    name: 'Anna',
-    username: 'anna',
-    email: 'anna@gmail.com'
-  })
+  res.json([
+    {
+      name: 'Anna',
+      username: 'anna',
+      email: 'anna@gmail.com'
+    },
+    {
+      name: 'Alice',
+      username: 'ali',
+      email: 'alice@gmail.com'
+    },
+    {
+      name: 'Jake',
+      username: 'jake',
+      email: 'jake@outlook.com'
+    },
+    {
+      name: 'Hector',
+      username: 'hector',
+      email: 'hector@yahoo.com'
+    }
+  ])
 })
 
 app.listen(port, () => console.log('Listening on port ', port))
