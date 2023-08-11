@@ -27,6 +27,16 @@ app.get('/user', (req, res) => {
       name: 'Hector',
       username: 'hector',
       email: 'hector@yahoo.com'
+    },
+    {
+      name: 'Maria',
+      username: 'mari',
+      email: 'maria@gmail.com'
+    },
+    {
+      name: 'Robert',
+      username: 'robe',
+      email: 'robert@hotmail.com'
     }
   ])
 })
