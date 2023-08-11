@@ -49,3 +49,6 @@ app.listen(port, () => console.log('Listening on port ', port))
 //Docker run dockerfile example:
 //docker run --name user-api -d -p 3000:5000 user-api-demo:1.0.0
 //the public port is 3000 and the port where the express server is listening is 5000
+
+//Pull docker image from:
+//docker pull alexdkr/user-api-nodejs
