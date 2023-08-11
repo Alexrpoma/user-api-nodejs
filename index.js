@@ -51,4 +51,4 @@ app.listen(port, () => console.log('Listening on port ', port))
 //the public port is 3000 and the port where the express server is listening is 5000
 
 //Pull docker image from:
-//docker pull alexdkr/user-api-nodejs
+//docker pull alexdkr/user-api-nodejs:1.0.0
